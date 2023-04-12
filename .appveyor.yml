@@ -1,0 +1,6 @@
+# base image
+image: Windows
+
+install:
+  - exit 1
+  - choco install sql-server-express
