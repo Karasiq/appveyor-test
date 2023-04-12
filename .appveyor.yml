@@ -1,6 +1,6 @@
 # base image
 image: Visual Studio 2022
 
-before_build:
-  - exit 1
+build_script:
   - choco install sql-server-express
+
