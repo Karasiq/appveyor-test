@@ -1,6 +1,6 @@
 # base image
-image: Windows
+image: Visual Studio 2022
 
-install:
+before_build:
   - exit 1
   - choco install sql-server-express
